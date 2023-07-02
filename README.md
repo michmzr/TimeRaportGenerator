@@ -48,3 +48,6 @@ On successful report generation, it returns the generated report as an attachmen
 
 - **Status Code**: `200 OK`
 In case of validation errors in the payload, it returns a `400 Bad Request` with error messages.
+
+**Example raport:**
+[raport_june2023.xlsx](raport_june2023.xlsx)

@@ -1,7 +1,6 @@
 from marshmallow import Schema, fields, ValidationError, validates
 
 class RaportSchema(Schema):
-    project = fields.Str(required=True)
     year = fields.Int(required=True)
     month = fields.Int(required=True)
     out_days = fields.List(fields.Date(format='%d-%m-%Y'), required=True)
